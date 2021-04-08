@@ -1,0 +1,35 @@
+#newsletter{
+  background-color: purple;
+  }
+#newsletter img{
+  width: 50px;
+}
+.logo{
+  display: inline-block;
+}
+
+#champs_newsletter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#champs_newsletter div>input{
+border-radius: 7%;
+
+}
+button{
+  border-radius: 7%;
+  background-color: lime;
+}
+.logo img{
+  border:solid lightslategray 1px;
+  width: 100px;
+  height: 50px;
+  float: inline-start;
+  
+}
+.menu{
+  float: inline-start;
+  display: flex;
+  flex-direction: row;
+}
