@@ -22,8 +22,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 0px;
-  padding-top: 0;
+  margin-right: 40%;
 }
 #champs_newsletter div>input{
 border-radius: 7%;
@@ -84,13 +83,15 @@ h2 p{
 
 }
 footer{
-  background-color: black;
+  background-color: grey;
   height: 400px;
   display: flex;
   width:100%;
   justify-content: center;
-  flex-direction: row;
+  
 }
-footer span{
+footer img{
+  width: 30%;
+  height: 30%;
   
 }
