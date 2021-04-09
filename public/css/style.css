@@ -46,8 +46,9 @@ button{
   display: inline-block;
   margin : 10px 40px;
   border: lightgray solid 3px;
+  padding: 20px;
 }
-  a {
+a{
   float: left;
   text-decoration: none;
 }
@@ -68,7 +69,7 @@ nav{
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  border: solid lightgray 3px;
 }
 .logo{
   margin-left: 0;
@@ -92,9 +93,11 @@ footer>:first-child{
   display: flex;
   justify-content: center;
   margin: 10px;
+  
 }
 footer>:nth-child(2){
   width: 30%;
   height: 30%;
   margin-top: 10%;
+  
 }
