@@ -1,8 +1,16 @@
 #newsletter{
   background-color: purple;
+  display: flex;
+  justify-content: space-between;
   }
+header{
+  width: 100%;
+}
 #newsletter img{
   width: 50px;
+}
+#champs_newsletter>div{
+
 }
 .logo{
   display: flex;
@@ -14,6 +22,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 0px;
+  padding-top: 0;
 }
 #champs_newsletter div>input{
 border-radius: 7%;
@@ -37,24 +47,24 @@ button{
   display: inline-block;
   margin : 10px 40px;
   border: lightgray solid 3px;
-  
-  
-  
 }
-.menu>li>a{
-  
-}
-a {
+  a {
   float: left;
   text-decoration: none;
 }
-section{
-  
-  text-align: center;
+body{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
-section>ul>li{
-  margin-left: 45%;
+#contenu{
+  border: solid  3px;
+  width: 80%;
+}
+#contenu h1{
   text-align: center;
+  
+  
 }
 nav{
   display: flex;
@@ -64,4 +74,23 @@ nav{
 }
 .logo{
   margin-left: 0;
+}
+
+  
+
+h2 p{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+footer{
+  background-color: black;
+  height: 400px;
+  display: flex;
+  width:100%;
+  justify-content: center;
+  flex-direction: row;
+}
+footer span{
+  
 }
