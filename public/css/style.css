@@ -5,7 +5,9 @@
   width: 50px;
 }
 .logo{
-  display: inline-block;
+  display: flex;
+  margin-left: 0;
+  margin-top: 5px;
 }
 
 #champs_newsletter{
@@ -22,14 +24,44 @@ button{
   background-color: lime;
 }
 .logo img{
-  border:solid lightslategray 1px;
-  width: 100px;
-  height: 50px;
-  float: inline-start;
+  display: flex;
+  
+  width: 150px;
+  height: 100%; 
+  margin-left: 0; 
+}
+.logo img :nth-child(2){
+  border:solid lightgray 3px;
+}
+.menu li{ 
+  display: inline-block;
+  margin : 10px 40px;
+  border: lightgray solid 3px;
+  
+  
   
 }
-.menu{
-  float: inline-start;
+.menu>li>a{
+  
+}
+a {
+  float: left;
+  text-decoration: none;
+}
+section{
+  
+  text-align: center;
+}
+section>ul>li{
+  margin-left: 45%;
+  text-align: center;
+}
+nav{
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+.logo{
+  margin-left: 0;
 }
